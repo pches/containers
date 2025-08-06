@@ -1,12 +1,12 @@
-# R-gams/R_5.2.1-gams_50.2
+# R-gams/R_4.5.1-gams_50.2
 This repository directory contains the singularity container definition file used for the creation of containers that have a self-contained environment with both R and GAMS. 
-R version: 5.2.1
+R version: 4.5.1
 GAMS version: 50.2 (July 18, 2025 release)
 
 ## Files
 
 - README.md - This file
-- R_5.2.1-gams_50.2-ubuntu_24.04.def - Definition file using Ubuntu 24.04, R 5.2.1, and GAMS 50.2. No WBM support. 
+- R_4.5.1-gams_50.2-ubuntu_24.04.def - Definition file using Ubuntu 24.04, R 4.5.1, and GAMS 50.2. No WBM support. 
 
 ## Notes
 
