@@ -1,12 +1,12 @@
 # WDRG
 
 Container definition file for the WDRG project.
-This container has the versions of R, R libraries, GDAL for the WBM version used for this project.
+This container has the versions of R, R libraries, GDAL for the WBM version used for this project. The R / R library versions used are specified in the definition file. GAMS requires a specific version, see the notes below.
 
 ## Files
 
 - README.md - This file
-- ubuntu_22.04_wdrg.def - Singularity definition file for Ubuntu 22.04, R, and GAMS used for teh WDRG project.
+- ubuntu_22.04_wdrg.def - Singularity definition file for Ubuntu 22.04, R (v 4.2.1), and GAMS used for teh WDRG project.
 
 ## Notes
 
@@ -17,7 +17,7 @@ provided for GAMS, as the compressed tar file would exceed the limits for file s
 
 Code may be downloaded from the vendor site: https://gams.com/download/
 
-See the WDRG documentation for the version of GAMS required.
+The WDRG project requires GAMS version 33.2.0 r4f23b21.
 
 The tarball may also be available from various sources within PSU ICDS; contact via icds@psu.edu for details.
 
